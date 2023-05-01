@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Navigation = (props) => {
     return (
         <Navbar bg="light" expand="lg" className='px-5' style={{ borderBottom: "1px solid gray" }}>
-      <Container>
+      <Container className='p-0'>
         <Navbar.Brand href="#"><img style={{ width: "181px", marginLeft: "-50px", marginRight: "20px" }} src={props.image} alt='logo1'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

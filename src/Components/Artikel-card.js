@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const cardArtikel = (props) => {
     return (
-        <Card style={{ width: '18rem',display:"flex", flexDirection:"column",  alignItems:"center", borderRadius:"5px", paddingbottom:"5px" }}>
+        <Card style={{ width: '18rem',display:"flex", flexDirection:"column",  alignItems:"center", borderRadius:"5px", paddingbottom:"5px", border: "none" }}>
              <Card.Img variant="top" src={props.crd} style={{width: "286px"}}/>
              <Card.Body>
                 <Card.Text style={{marginLeft: "-10px"}}>

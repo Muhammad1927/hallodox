@@ -51,13 +51,14 @@ import obat5 from "./../Assets/obat5.png";
 import Btno from "./Btn";
 
 
+
 const Main = () => {
     return (
         <div>
             <Navigation image={logo1}/>
             
             <div style={{backgroundImage: `url(${body})`, backgroundRepeat: "no-repeat", backgroundPosition: "bottom right", backgroundSize: "cover"}}>
-                <div className="container pt-5">
+                <div className="container p-0">
                     <div>
                         <h2 style={{fontWeight: "620", marginTop: "40px"}}>Solusi Kesehatan Terlengkap</h2>
                         <p style={{width: "650px", fontWeight: "400"}}>Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi seputar kesehatan, semua bisa di Halodoc!</p>
@@ -123,8 +124,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
+
                 <div className="container">
                     <div>
                         <h1 style={{fontSize:"25px"}}>Penunjang Kesehatan</h1>
@@ -162,8 +162,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
+
                 <div className="container">
                     <div>
                         <h1 style={{fontSize:"25px"}}>Penawaran Menarik</h1>
@@ -174,8 +173,7 @@ const Main = () => {
                             <Penawaran penawaran={penawaran3}/>
                     </div>
                 </div>
-            </div>
-            <div>
+
                 <div className="container">
                     <NavbarArl/>
                     <div>
@@ -188,8 +186,7 @@ const Main = () => {
                         <Crd crd={card4} cartu="Benarkah Remaja Bisa Mengidap Kanker Ovarium? Ini Faktanya" btnk="Kanker Ovarium" p="Kanker ovarium merupakan jenis kanker yang lebih sering menyerang wanita lanjut..."/>
                     </div>
                 </div>
-            </div>
-            <div>
+
                 <div className="container">
                     <div className="pb-4">
                         <h1 style={{fontSize:"25px"}}>Obat & Vitamin</h1>
@@ -200,18 +197,18 @@ const Main = () => {
                             <Obat obat={obat1} obt="Obat & Perawatan"/>
                         </div>
                         <div className="col-12 col-lg-4">
-                            <Obat obat={obat2} obt="Obat & Perawatan"/>
+                            <Obat obat={obat2} obt="Vitamin & Suplemen"/>
                         </div>
                         <div className="col-12 col-lg-4">
-                            <Obat obat={obat3} obt="Obat & Perawatan"/>
+                            <Obat obat={obat3} obt="Ibu & Anak"/>
                         </div>
                     </div>
                     <div className="row pb-3 gap-2 gap-lg-0">
                     <div className="col-12 col-lg-4">
-                            <Obat obat={obat4} obt="Obat & Perawatan"/>
+                            <Obat obat={obat4} obt="Susu"/>
                         </div>
                         <div className="col-12 col-lg-4">
-                            <Obat obat={obat5} obt="Obat & Perawatan"/>
+                            <Obat obat={obat5} obt="Romadhon"/>
                         </div>
                         <div className="col-12 col-lg-4">
                             <Btno/>

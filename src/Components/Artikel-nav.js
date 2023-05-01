@@ -3,9 +3,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const navArtikel = (props) => {
     return (
-        <Navbar style={{marginTop: "40px"}}>
+        <Navbar style={{marginTop: "40px", boxShadow: "none"}}>
       <Container>
-        <Navbar.Brand href="#home" style={{fontWeight: "600", fontSize: "1.5rem", color: "black", marginLeft: "-20px"}}>Baca 100+ Artikel Baru</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{fontWeight: "600", fontSize: "1.5rem", color: "black", marginLeft: '-30px'}}>Baca 100+ Artikel Baru</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
